@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class Troco {
     public static void main(String[] args) {
+        System.out.println("Digite o valor: ");
         Scanner scanner = new Scanner(System.in);
         scanner.useLocale(Locale.US);
 
