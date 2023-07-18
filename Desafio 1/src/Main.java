@@ -36,7 +36,7 @@ public class Main {
             System.out.println(valor);
         }
 
-        System.out.println("Numeros pares");
+        System.out.println("Numeros Impares");
         for (int valor : impares) {
             System.out.println(valor);
         }
