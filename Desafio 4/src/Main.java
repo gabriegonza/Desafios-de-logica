@@ -3,19 +3,12 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-
         System.out.println("Diigite a frese ao contrario: ");
         Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt(); // Quantidade de casos de teste
-        scanner.nextLine(); // Consumir a quebra de linha após o valor n
+        String inp = scanner.nextLine();
 
-        for (int i = 0; i < n; i++) {
-            String line = scanner.nextLine();
-            String unscrambledLine = unscrambleLine(line);
-            System.out.println(unscrambledLine);
-        }
-
-        scanner.close();
+        String unscrambleLine = unscrambleLine(inp);
+        System.out.println(unscrambleLine);
     }
 
     public static String unscrambleLine(String line) {
